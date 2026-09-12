@@ -44,8 +44,8 @@ export const EditorialQAChecklist: React.FC = () => {
 
       {isOpen && (
         <div className="p-4 sm:p-5 border-t border-slate-700/80 bg-[#141C3B] animate-fadeIn">
-          <p className="text-xs text-slate-300 mb-3 leading-relaxed">
-            Inspired by page 8 of the Puzzle Studio specification, all puzzles adhere to standard magazine editorial verification:
+                    <p className="text-xs text-slate-300 mb-3 leading-relaxed">
+            Every puzzle in this prototype follows the same editorial verification process:
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
             {checklist.map((item, idx) => (

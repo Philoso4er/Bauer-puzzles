@@ -1,6 +1,0 @@
-{
-  "name": "60-Second Puzzle Fix",
-  "description": "An interactive single-page puzzle widget featuring mini wordsearches, cryptograms, logic snippets, and arithmetic teasers with an editorial navy and yellow aesthetic.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

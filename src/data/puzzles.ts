@@ -10,7 +10,7 @@ export const PUZZLE_POOL: AnyPuzzle[] = [
     timeEstimateSeconds: 45,
     instructions: 'Every letter is represented by a number 1–26. Use the given letters and clues to crack the missing word or full phrase.',
     hint: 'Look at the first word: 26 4 4 23 where 4 is E. What classic British comfort phrase starts with K-E-E-P?',
-    explanation: 'With 4=E, 12=C, 21=A, and 8=L, the pattern 26-E-E-23 and C-A-L-5 resolves to "KEEP CALM". (From the PDF editorial solution: "KEEP CALM AND DO THE CROSSWORD").',
+    explanation: 'With 4=E, 12=C, 21=A, and 8=L, the pattern 26-E-E-23 and C-A-L-5 resolves to "KEEP CALM" — the first half of the full phrase "KEEP CALM AND DO THE CROSSWORD".',
     givenKey: {
       4: 'E',
       12: 'C',
@@ -90,7 +90,7 @@ export const PUZZLE_POOL: AnyPuzzle[] = [
     options: ['Alan', 'Barbara', 'Colin', 'Denise'],
     correctAnswer: 'Alan',
     hint: 'Denise did Wordsearch, Colin did Arrowword. Sudoku was not Alan or Colin. Who is left for Crossword?',
-    explanation: '1. Denise did Wordsearch. 2. Colin did Arrowword. 3. Sudoku was not Alan or Colin, so Barbara solved Sudoku. Therefore, Alan solved the Crossword! (Matches page 6 & 9 of the PDF).',
+    explanation: '1. Denise did Wordsearch. 2. Colin did Arrowword. 3. Sudoku was not Alan or Colin, so Barbara solved Sudoku. Therefore, Alan solved the Crossword!',
   },
   {
     id: 'arithmetic-cross-equation',
@@ -196,7 +196,7 @@ export const PUZZLE_POOL: AnyPuzzle[] = [
     timeEstimateSeconds: 40,
     instructions: 'Find the 7-letter genre word hidden across the middle of the grid. Tap each letter or type it below.',
     hint: 'Starts with M in Row 4, Col 0: M-Y-S-T-E-R-Y.',
-    explanation: '"MYSTERY" is placed horizontally across Row 4: M-Y-S-T-E-R-Y. (One of the 14 verified words from page 2 of the PDF).',
+    explanation: '"MYSTERY" is placed horizontally across Row 4: M-Y-S-T-E-R-Y.',
     targetWord: 'MYSTERY',
     targetClue: 'A whodunit or suspenseful story solved by deduction (7 letters)',
     grid: [
